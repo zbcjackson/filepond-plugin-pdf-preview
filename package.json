@@ -50,6 +50,8 @@
     "@babel/preset-env": "^7.11.0",
     "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
+    "dot-prop": ">=4.2.1",
+    "lodash": ">=4.17.19",
     "node-sass": "^5",
     "postcss-cli": "7.1.1",
     "prettier": "^2.1.1",
@@ -59,15 +61,13 @@
     "rollup-plugin-license": "^2.2.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-prettier": "^2.1.0",
-    "rollup-plugin-terser": "^7.0.1",
-    "dot-prop": ">=4.2.1",
-    "lodash": ">=4.17.19"
+    "rollup-plugin-terser": "^7.0.1"
   },
   "bugs": {
     "url": "https://github.com/Adri-Glez/filepond-plugin-pdf-preview/issues"
   },
   "homepage": "https://github.com/Adri-Glez/filepond-plugin-pdf-preview#readme",
   "dependencies": {
-    "filepond": "^4.25.1"
+    "filepond": ">=4.x <5.x"
   }
 }
